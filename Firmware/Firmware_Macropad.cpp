@@ -1,0 +1,109 @@
+#include <HID-Project.h>
+#include <Adafruit_NeoPixel.h>
+
+const int encA = 7;
+const int encB = 29;
+const int sharedBtn = 2;
+const int ledBtn = 27;
+const int ledPin = 6;
+const int ledCount = 2;
+
+Adafruit_NeoPixel leds(ledCount, ledPin, NEO_GRB + NEO_KHZ800);
+
+unsigned long pressStart = 0;
+bool btnWasDown = false;
+bool oledOn = true;
+
+int lastA = 0;
+int ledMode = 0;
+
+void setup() {
+  pinMode(encA, INPUT_PULLUP);
+  pinMode(encB, INPUT_PULLUP);
+  pinMode(sharedBtn, INPUT_PULLUP);
+  pinMode(ledBtn, INPUT_PULLUP);
+
+  Consumer.begin();
+  leds.begin();
+  leds.show();
+
+  lastA = digitalRead(encA);
+}
+
+void loop() {
+  handleEncoder();
+  handleSharedButton();
+  handleLedButton();
+}
+
+void handleEncoder() {
+  int a = digitalRead(encA);
+
+  if (a != lastA) {
+    if (digitalRead(encB) != a) {
+      Consumer.write(MEDIA_VOLUME_UP);
+    } else {
+      Consumer.write(MEDIA_VOLUME_DOWN);
+    }
+  }
+
+  lastA = a;
+}
+
+void handleSharedButton() {
+  bool down = digitalRead(sharedBtn) == LOW;
+
+  if (down && !btnWasDown) {
+    pressStart = millis();
+    btnWasDown = true;
+  }
+
+  if (!down && btnWasDown) {
+    unsigned long held = millis() - pressStart;
+
+    if (held >= 3000) {
+      oledOn = !oledOn;
+      if (oledOn) {
+        // oled turn back on
+      } else {
+        // oled go off now
+      }
+    } else {
+      Consumer.write(MEDIA_PLAY_PAUSE);
+    }
+
+    btnWasDown = false;
+  }
+}
+
+void handleLedButton() {
+  static bool last = false;
+  bool now = digitalRead(ledBtn) == LOW;
+
+  if (now && !last) {
+    ledMode++;
+    if (ledMode > 3) ledMode = 0;
+
+    if (ledMode == 0) {
+      setAll(0, 0, 0);
+    }
+    if (ledMode == 1) {
+      setAll(255, 0, 0);
+    }
+    if (ledMode == 2) {
+      setAll(0, 255, 0);
+    }
+    if (ledMode == 3) {
+      setAll(0, 0, 255);
+    }
+  }
+
+  last = now;
+}
+
+void setAll(int r, int g, int b) {
+  for (int i = 0; i < ledCount; i++) {
+    leds.setPixelColor(i, leds.Color(r, g, b));
+  }
+  leds.show();
+}
