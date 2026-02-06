@@ -25,16 +25,16 @@ Here are some pictures!
 I don't have the finished picture yet altough i will at them once i received all parts.
 
 ## Hackpad Overview
-![Hackpad Screenshot](assets/Macropdad_asembled.png)
+![Hackpad Screenshot](Macropdad_asembled.png)
 
 ## Schematic
-![Schematic Screenshot](assets/Wireing_macropad.png)
+![Schematic Screenshot](Wireing_macropad.png)
 
 ## PCB Layout
-![PCB Screenshot](assets/PCB.png)
+![PCB Screenshot](PCB.png)
 
 ## Case Design / Assembly
-![Case Screenshot](assets/Pic_3d_non_asembled_macropad.png)
+![Case Screenshot](Pic_3d_non_asembled_macropad.png)
 
 To view the price of the PCB please look at the other files under /assets/
 
