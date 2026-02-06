@@ -7,14 +7,21 @@ I made this product following the tutorial on blueprint.hackclub and added my ow
 
 If anyone wants to build something similar feel free to ask me about the process!
 
-Here's a bill of all the items used:
+## Bill of Materials (BOM)
 
-Id;"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";					
-1;"D2	D1";"LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm";2;"SK6812MINI";;;				
-2;"SW9";"RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm";1;"RotaryEncoder_Switch";;;					
-3;"SW2	SW5	SW6	SW1	SW3	SW4";"SW_Cherry_MX_1.00u_PCB";6;"SW_Push";;;
-4;"U1";"XIAO-RP2040-DIP";1;"XIAO-RP2040-DIP";;;					
-5;"J1";"FanPinHeader_1x04_P2.54mm_Vertical";1;"Conn_01x04";;;		--- This is an OLED i used the connector instead since i couldn't find a simbol or a Footprint			
+here are all of the products used!
+
+| Part | Quantity | Description | Example Part Number | Link |
+|------|----------|-------------|---------------------|------|
+| Microcontroller | 1 | Seeed Studio XIAO RP2040 | XIAO-RP2040 | https://www.seeedstudio.com/XIAO-RP2040-p-5026.html |
+| OLED Display | 1 | 0.91" I2C OLED 128x32 (SSD1306) | SSD1306 0.91" | https://www.adafruit.com/product/4440 |
+| Mechanical Switch | 6 | Cherry MX compatible PCB mount switch | Cherry MX compatible | https://www.cherrymx.de/en/cherry-mx/mx.html |
+| Rotary Encoder | 1 | ALPS EC11 with push button | EC11E15244G1 | https://www.lcsc.com/product-detail/Rotary-Encoders_ALPSALPINE-EC11E15244G1_C47023.html |
+| RGB LED | 2 | SK6812 Mini-E RGB LED | SK6812MINI-E | https://www.lcsc.com/product-detail/RGB-LEDs_OPSCO-Optoelectronics-SK6812MINI-E_C5149201.html |
+| Resistor | 2 | 220Ω 0603 resistor for LEDs | 220R 0603 | https://www.lcsc.com/product-detail/Chip-Resistor-SMD_0603-220R_C22962.html |
+| PCB | 1 | PCB  | – | https://jlcpcb.com |
+| Case (3D Print) | 1 | 3D printed enclosure | – | – |
+
 
 
 All needed Files should be included in /assets/ the other files are sorted.
