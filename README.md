@@ -36,6 +36,6 @@ I don't have the finished picture yet altough i will at them once i received all
 ## Case Design / Assembly
 ![Case Screenshot](Pic_3d_non_asembled_macropad.png)
 
-To view the price of the PCB please look at the other files under /assets/
+To view the price of the PCB please look at the other files under the main folder!
 
 The Firmware is still not finished and will also be updated once the parts are assembled!
