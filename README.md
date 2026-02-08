@@ -40,7 +40,7 @@ I don't have the finished picture yet altough i will at them once i received all
 
 ## PCB Layout
 ![PCB Screenshot](PCB.png)
-
+sorry this is the old picture click on the link for the updated one it wont let me update it for some reason
 ## Case Design / Assembly
 ![Case Screenshot](Pic_3d_non_asembled_macropad.png)
 
