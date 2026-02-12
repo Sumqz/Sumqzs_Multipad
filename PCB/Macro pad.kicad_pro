@@ -487,10 +487,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "C:/Users/elias/OneDrive/Desktop/Macropad Final/Production/Gerber/",
+      "plot": "C:/Users/elias/Downloads/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../Downloads/Macro pad.step",
       "svg": "",
       "vrml": ""
     },
