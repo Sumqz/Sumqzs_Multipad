@@ -47,6 +47,7 @@ Note: The linked parts are example references. Please double-check compatibility
 ## Schematic
 ![Schematic](pictures/schematic.png)
 
+The rotary encoder is supposed to not be connected on the S pins since i don't need the extra function. If you plan on replicating this schematic you can use a matrix to also utilize it!
 ## PCB Layout
 ![PCB](pictures/PCB.png)
 
