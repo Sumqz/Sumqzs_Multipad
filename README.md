@@ -45,7 +45,7 @@ Note: The linked parts are example references. Please double-check compatibility
 ---
 
 ## Schematic
-![Schematic](pictures/Wireing_macropad.png)
+![Schematic](pictures/schematic.png)
 
 ## PCB Layout
 ![PCB](pictures/PCB.png)
