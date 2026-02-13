@@ -2002,22 +2002,10 @@
 		(uuid "82de6f16-80c2-471c-ba05-1afb23216499")
 	)
 	(junction
-		(at 15.24 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "92cc0a53-bc0a-4211-8c68-8f25a07d1302")
-	)
-	(junction
 		(at 44.45 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a541623-3abf-486e-beba-55aa3facbaf8")
-	)
-	(junction
-		(at 62.23 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b2c2deea-7b3e-47ac-acfb-9edc05423f5b")
 	)
 	(junction
 		(at 44.45 67.31)
@@ -2090,16 +2078,6 @@
 			(type default)
 		)
 		(uuid "1cc6717b-a17d-4244-93b8-149629b8ff20")
-	)
-	(wire
-		(pts
-			(xy 15.24 86.36) (xy 15.24 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e55c9ec-1f4c-426e-bd24-3e06a69383be")
 	)
 	(wire
 		(pts
@@ -2273,16 +2251,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 72.39) (xy 53.34 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5be14742-f268-47f7-b100-45d19b258c0b")
-	)
-	(wire
-		(pts
 			(xy 12.7 22.86) (xy 17.78 22.86)
 		)
 		(stroke
@@ -2350,16 +2318,6 @@
 			(type default)
 		)
 		(uuid "77136f80-1333-4ef2-b6cd-0e441aaae67b")
-	)
-	(wire
-		(pts
-			(xy 30.48 82.55) (xy 30.48 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77b9ef70-b81c-42a0-a088-9fc6eddc57f9")
 	)
 	(wire
 		(pts
@@ -2433,7 +2391,7 @@
 	)
 	(wire
 		(pts
-			(xy 15.24 87.63) (xy 15.24 86.36)
+			(xy 15.24 83.82) (xy 15.24 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2503,16 +2461,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 41.91) (xy 66.04 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a86b580-4500-4da2-bb8d-c2d3fb1f2380")
-	)
-	(wire
-		(pts
 			(xy 13.97 38.1) (xy 17.78 38.1)
 		)
 		(stroke
@@ -2540,16 +2488,6 @@
 			(type default)
 		)
 		(uuid "a1695c07-c406-475b-952d-f14ed6d3ba5b")
-	)
-	(wire
-		(pts
-			(xy 30.48 77.47) (xy 30.48 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a657c124-2f87-4435-ad87-7d436401efa5")
 	)
 	(wire
 		(pts
@@ -2613,16 +2551,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 50.8) (xy 66.04 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c12f56d6-9482-45e3-9660-28ae73c9a673")
-	)
-	(wire
-		(pts
 			(xy 54.61 30.48) (xy 53.34 30.48)
 		)
 		(stroke
@@ -2640,16 +2568,6 @@
 			(type default)
 		)
 		(uuid "c8a1ddee-f7f4-402c-8e67-81609f1f1b07")
-	)
-	(wire
-		(pts
-			(xy 53.34 72.39) (xy 53.34 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c93424f9-20a6-4503-a0b7-da959f537039")
 	)
 	(wire
 		(pts
@@ -2723,16 +2641,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 50.8) (xy 66.04 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da088f20-d62e-481f-84ca-dfcdaaef0ee3")
-	)
-	(wire
-		(pts
 			(xy 44.45 67.31) (xy 44.45 68.58)
 		)
 		(stroke
@@ -2770,16 +2678,6 @@
 			(type default)
 		)
 		(uuid "e5c2633b-614e-4320-9bfb-800ba875699c")
-	)
-	(wire
-		(pts
-			(xy 30.48 86.36) (xy 15.24 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e722ab2c-106b-44fd-8688-b9f748bea7e6")
 	)
 	(wire
 		(pts
@@ -3023,7 +2921,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "164096c3-fa9f-4c24-b635-fd622aa55ef7")
 		(property "Reference" "D1"
 			(at 38.1 53.2698 0)
@@ -3034,14 +2931,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 38.1 55.8098 0)
+			(at 34.29 70.104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "Footprint:SK6812MINI-E_fixed"
 			(at 26.67 67.31 0)
 			(effects
 				(font
@@ -3117,7 +3014,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "Footprint:SK6812MINI-E_fixed"
 			(at 45.72 67.31 0)
 			(effects
 				(font
