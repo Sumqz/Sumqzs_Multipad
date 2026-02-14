@@ -45,7 +45,7 @@ Note: The linked parts are example references. Please double-check compatibility
 ---
 
 ## Schematic
-![Schematic](pictures/Schematic.png)
+![Schematic](pictures/Shematic.png)
 
 Changed it to a matrix to make room for all the switches!
 ## PCB
