@@ -48,7 +48,7 @@ Note: The linked parts are example references. Please double-check compatibility
 ![Schematic](pictures/Schematic.png)
 
 Changed it to a matrix to make room for all the switches!
-##PCB
+## PCB
 ![PCB](pictures/PCB.png)
 
 ## Case Design / 3D Model
